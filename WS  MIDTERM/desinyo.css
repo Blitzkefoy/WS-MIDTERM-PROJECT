@@ -1,0 +1,136 @@
+.container {
+    width: 1600px;
+    height: 1024px;
+    position: relative;
+    background: #000000;
+  }
+  
+
+  .project-title {
+    width: 174px;
+    height: 70px;
+    left: 800px; 
+    top: 53px;
+    position: absolute;
+    text-align: center;
+    color: aqua;
+    font-size: 25px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: 0.50px;
+    word-wrap: break-word;
+  }
+  
+  .works-title {
+    width: 503px;
+    height: 79px;
+    left: 646px; 
+    top: 123px;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Nunito;
+    font-weight: 500;
+    line-height: 30px;
+    word-wrap: break-word;
+  }
+  
+  .works-description {
+    width: 803px;
+    height: 79px;
+    left: 496px; 
+    top: 202px;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+  }
+  
+  .works-image1 {
+    width: 549px;
+    height: 295px;
+    left: 324px; 
+    top: 350px;
+    position: absolute;
+    border-radius: 57px;
+  }
+  
+  .works-image2 {
+    width: 589px;
+    height: 244px;
+    left: 600px; 
+    top: 712px;
+    position: absolute;
+  }
+  
+  .works-image3 {
+    width: 621px;
+    height: 295px;
+    left: 920px; 
+    top: 350px;
+    position: absolute;
+  }
+  
+  
+  .sidebar {
+    width: 285px;
+    height: 1024px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #141313;
+    border-right: 1px rgba(20, 19, 19, 0.10) solid;
+  }
+  
+  .sidebar-content {
+    width: 108px;
+    height: 782px;
+    position: absolute;
+    left: 48px;
+    top: 56px;
+  }
+  
+  .menu {
+    width: 108px;
+    height: 180px;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    word-wrap: break-word;
+  }
+  
+  .menu-item.portfolio {
+    color: aqua; 
+  }
+  
+  .name {
+    left: 10px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    color: aqua;
+  }
+  

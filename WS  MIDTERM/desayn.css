@@ -1,0 +1,398 @@
+.div {
+    justify-content: center;
+    background-color: #fff;
+    display: flex;
+    gap: 0px;
+  }
+  
+  @media (max-width: 991px) {
+    .div {
+      flex-wrap: wrap;
+    }
+  }
+  
+  .sidebar {
+    width: 285px;
+    height: 1100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #141313;
+    border-right: 1px rgba(20, 19, 19, 0.10) solid;
+  }
+  
+  .sidebar-content {
+    width: 108px;
+    height: 782px;
+    position: absolute;
+    left: 48px;
+    top: 56px;
+  }
+  
+  .menu {
+    width: 108px;
+    height: 180px;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    word-wrap: break-word;
+  }
+  
+  .menu-item.contact {
+    color: aqua;
+  }
+  
+  .name {
+    left: 10px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    color: aqua;
+  }
+  
+  @media (max-width: 991px) {
+    .div-8 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  .div-9 {
+    width: 1235px;
+    max-width: 100%;
+    margin: 132px 0 0 400px;
+  }
+  
+  @media (max-width: 991px) {
+    .div-9 {
+      margin-top: 40px;
+    }
+  }
+  
+  .div-10 {
+    gap: 20px;
+    display: flex;
+  }
+  
+  @media (max-width: 991px) {
+    .div-10 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 36%;
+    margin-left: 0px;
+  }
+  
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  .div-11 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #141313;
+    font-weight: 700;
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .div-11 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+  .div-12 {
+    font: italic 600 18px/133% IBM Plex Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .div-12 {
+      max-width: 100%;
+    }
+  }
+  
+  
+  .div-13 {
+    text-transform: uppercase;
+    margin-top: 16px;
+    font: 48px/117% IBM Plex Sans, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  .div-14 {
+    letter-spacing: -0.48px;
+    margin-top: 36px;
+    font: 400 16px/150% IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-14 {
+      max-width: 100%;
+    }
+  }
+  .div-15 {
+    margin-top: 130px;
+    font: 32px IBM Plex Sans, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-16 {
+    margin-top: 36px;
+    font: 32px/40px IBM Plex Sans, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      max-width: 100%;
+    }
+  }
+  .div-17 {
+    display: flex;
+    margin-top: 82px;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: -0.48px;
+    line-height: 150%;
+  }
+  @media (max-width: 991px) {
+    .div-17 {
+      flex-wrap: wrap;
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .div-18 {
+    font-family: IBM Plex Sans, sans-serif;
+    flex-grow: 1;
+  }
+  .div-19 {
+    font-family: IBM Plex Sans, sans-serif;
+  }
+  .div-20 {
+    font-family: IBM Plex Sans, sans-serif;
+  }
+  .div-21 {
+    font-family: IBM Plex Sans, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 64%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-22 {
+    background: linear-gradient(
+      270deg,
+      #ffb147 5.74%,
+      #ff6c63 50.64%,
+      #b86adf 92.05%
+    );
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 150%;
+    width: 100%;
+    padding: 70px 80px;
+  }
+  @media (max-width: 991px) {
+    .div-22 {
+      max-width: 100%;
+      margin-top: 25px;
+      padding: 0 20px;
+    }
+  }
+  .div-23 {
+    text-transform: uppercase;
+    font: 700 40px/120% IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-23 {
+      max-width: 100%;
+      margin-right: 5px;
+    }
+  }
+  .div-24 {
+    display: flex;
+    margin-top: 59px;
+    gap: 20px;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+  @media (max-width: 991px) {
+    .div-24 {
+      flex-wrap: wrap;
+      white-space: initial;
+      margin: 40px 5px 0 0;
+    }
+  }
+  .div-25 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: fit-content;
+  }
+  @media (max-width: 991px) {
+    .div-25 {
+      white-space: initial;
+    }
+  }
+  .div-26 {
+    font-family: IBM Plex Sans, sans-serif;
+  }
+  .div-27 {
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    height: 2px;
+  }
+  .div-28 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: fit-content;
+  }
+  @media (max-width: 991px) {
+    .div-28 {
+      white-space: initial;
+    }
+  }
+  .div-29 {
+    font-family: IBM Plex Sans, sans-serif;
+  }
+  .div-30 {
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    height: 2px;
+  }
+  .div-31 {
+    font-family: IBM Plex Sans, sans-serif;
+    text-transform: uppercase;
+    margin-top: 54px;
+  }
+  @media (max-width: 991px) {
+    .div-31 {
+      max-width: 100%;
+      margin: 40px 5px 0 0;
+    }
+  }
+  .div-32 {
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 60px;
+    width: 605px;
+    max-width: 100%;
+    height: 2px;
+  }
+  @media (max-width: 991px) {
+    .div-32 {
+      margin: 40px 5px 0 0;
+    }
+  }
+  .div-33 {
+    align-self: start;
+    display: flex;
+    margin-top: 14px;
+    gap: 8px;
+    text-transform: uppercase;
+  }
+  @media (max-width: 991px) {
+    .div-33 {
+      margin-left: 5px;
+    }
+  }
+  .img-4 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 20px;
+    margin: auto 0;
+  }
+  .div-34 {
+    font-family: IBM Plex Sans, sans-serif;
+  }
+  .div-35 {
+    justify-content: center;
+    background-color: #141313;
+    align-self: start;
+    display: flex;
+    margin-top: 40px;
+    gap: 8px;
+    font-size: 18px;
+    line-height: 133%;
+    padding: 16px 40px;
+  }
+  @media (max-width: 991px) {
+    .div-35 {
+      margin-left: 5px;
+      padding: 0 20px;
+    }
+  }
+  .div-36 {
+    font-family: IBM Plex Sans, sans-serif;
+    flex-grow: 1;
+  }
+  .img-5 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 24px;
+    fill: linear-gradient(
+      270deg,
+      #ffb147 5.74%,
+      #ff6c63 50.64%,
+      #b86adf 92.05%
+    );
+  }
+
